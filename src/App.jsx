@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Content from './components/Content'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>hello mundo</h1>  
+    <Content />
     </>
   )
 }
